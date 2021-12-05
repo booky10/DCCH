@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "dcch",
+  "version": "${version}",
+
+  "name": "DCCH",
+  "description": "Don't clear the chat history when switching servers.",
+  "authors": [
+    "booky10"
+  ],
+
+  "contact": {
+    "sources": "https://github.com/booky10/DCCH/"
+  },
+
+  "license": "GPL-3.0",
+
+  "entrypoints": {
+    "client": [
+      "tk.booky.dcch.DCCHClient"
+    ]
+  },
+
+  "environment": "client",
+  "mixins": [
+    "dcch.mixin.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.6",
+    "minecraft": ">=1.18",
+    "java": ">=17"
+  }
+}
