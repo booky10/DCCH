@@ -4,6 +4,7 @@
   "package": "tk.booky.dcch.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
+    "GuiMixin"
   ],
   "injectors": {
     "defaultRequire": 1
