@@ -19,7 +19,7 @@ version = "1.0.0+fabric.${getGitCommit()}"
 group = "tk.booky"
 
 dependencies {
-    minecraft("com.mojang:minecraft:1.18")
+    minecraft("com.mojang:minecraft:1.18.1")
     mappings(loom.officialMojangMappings())
 
     modImplementation("net.fabricmc:fabric-loader:0.12.6")
